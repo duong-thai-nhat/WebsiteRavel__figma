@@ -1023,7 +1023,7 @@ p{
     }
 
     .app__wrap > div:nth-child(2){
-        height: 50vw;
+        height: 40vw;
     }
 
     .app__wrap > div:nth-child(2) .app__book{
@@ -1089,6 +1089,10 @@ p{
 
     .choose-destination__content__item{
         padding: 0;
+    }
+
+    .app__wrap > div:nth-child(2){
+        height: 35vw;
     }
 }
 
