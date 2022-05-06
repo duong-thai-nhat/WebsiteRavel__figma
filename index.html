@@ -154,6 +154,57 @@
                                 Discover Now
                             </button>
                         </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Modal filter</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="slider__filter filter__modal">
+                                        <div class="slider__filter__wrap">
+                                            <div class="slider__filter__item">
+                                                <h3 class="slider__filter__heading">Destinations</h3>
+                                                <select name="" class="slider__filter__select" id="">
+                                                    <option class="slider__filter__option" value="">Arab Egypt</option>
+                                                </select>
+                                            </div>
+                                            <div class="slider__filter__item">
+                                                <h3 class="slider__filter__heading">Check in</h3>
+                                                <select name="" class="slider__filter__select" id="">
+                                                    <option class="slider__filter__option" value="">01 Feb, 2021</option>
+                                                </select>
+                                            </div>
+                                            <div class="slider__filter__item">
+                                                <h3 class="slider__filter__heading">Destinations</h3>
+                                                <select name="" class="slider__filter__select" id="">
+                                                    <option class="slider__filter__option" value="">$500 - $10,0000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- <button class="slider__content__button btn btn-l">
+                                            Discover Now
+                                        </button> -->
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                                    <button class="slider__content__button btn btn-l">
+                                        Discover Now
+                                    </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="slider__icon__filter">
+                            <div data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <div class="slider__icon__filter__wrap">
+                                    <!-- Launch demo modal -->
+                                    <i class="fa-solid fa-filter"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -334,7 +385,7 @@
             <div class="container">
                 <h3 class="heading__text text-center">Choose Your Destination</h3>
                 <div class="choose-destination__content row">
-                    <div class="choose-destination__content__item col-md-4">
+                    <div class="choose-destination__content__item col-md-4 col1500-12">
                         <div class="choose-destination__cubes text-end">
                             <img src="./assets/img/choose_destination/triangle.png" alt="" class="choose-destination__content__triangle">
                         </div>
@@ -365,7 +416,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="choose-destination__content__item col-md-4">
+                    <div class="choose-destination__content__item col-md-4 col1500-12">
                         <div class="choose-destination__wrap__img">
                             <img src="./assets/img/choose_destination/image_2022-04-29_09-15-34 (2).png" alt="" class="choose-destination__content__img">
                             <div class="choose-destination__img__text">
@@ -398,7 +449,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="choose-destination__content__item col-md-4">
+                    <div class="choose-destination__content__item col-md-4 col1500-12">
                         <div class="choose-destination__cubes text-start">
                             <img src="./assets/img/choose_destination/1-4circle.png" alt="" class="choose-destination__content__circle">
                         </div>
@@ -428,6 +479,11 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="choose-destination-wrap responsive text-center">
+                        <button class="choose-destination__button btn btn-m">
+                            View All Places
+                        </button>
                     </div>
                 </div>
             </div>
@@ -504,7 +560,7 @@
         <section id="app" class="app">
             <div class="container">
                 <div class="app__wrap row">
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-6 col-xxxl-12 col-12">
                         <div class="app__header">
                             <h3 class="app__header__heading heading__text">Download Now Travel Community Apps</h3>
                             <div class="app__header__download">
@@ -513,8 +569,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12">
-                        <img src="./assets/img/DownloadApp/appBook.png" alt="" class="app__book">
+                    <div class="col-md-6 col-xxxl-12 col-12">
+                        <div class="app__download__img">
+                            <img src="./assets/img/DownloadApp/appBook.png" alt="" class="app__book">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -528,7 +586,7 @@
         <div class="container">
             <div class="footer__wrap">
                 <div class="row">
-                    <div class="col-md-4 col-sm-8 col-12">
+                    <div class="col-xxxl-6 col-xl-4 col-12">
                         <div class="footer__header">
                             <div class="footer__logo">
                                 <img src="./assets/img/logo.png" alt="" class="footer__logo__img">
@@ -567,7 +625,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-12">
+                    <div class="col-xxxl-6 col-xl-2 col-12">
                         <div class="footer__header no__image">
                             <h3 class="footer__header__heading">Quick Links</h3>
                         </div>
@@ -601,7 +659,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-12">
+                    <div class="col-xxxl-6 col-xl-2 col-12">
                         <div class="footer__header no__image">
                             <h3 class="footer__header__heading">Support</h3>
                         </div>
@@ -635,7 +693,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-8 col-12">
+                    <div class="col-xxxl-6 col-xl-4 col-12">
                         <div class="footer__header no__image">
                             <h3 class="footer__header__heading">Newsletter</h3>
                         </div>
