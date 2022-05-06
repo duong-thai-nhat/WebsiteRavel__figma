@@ -836,8 +836,8 @@ p{
 
 .app__book{
     position: absolute;
-    top: -130px;
-    width: 100%;
+    top: -123px;
+    /* width: 100%; */
 }
 
 /* // DownloadApp */
@@ -981,6 +981,10 @@ p{
     .slider__icon__filter{
         display: block;
     }
+
+    .app__book{
+        right: -140px;
+    }
 }
 
 @media (max-width: 1810px){
@@ -1022,8 +1026,13 @@ p{
         justify-content: center;
     }
 
+    .app__book{
+        right: 50%;
+        transform: translateX(50%);
+    }
+
     .app__wrap > div:nth-child(2){
-        height: 40vw;
+        height: 457px;
     }
 
     .app__wrap > div:nth-child(2) .app__book{
@@ -1092,7 +1101,7 @@ p{
     }
 
     .app__wrap > div:nth-child(2){
-        height: 35vw;
+        height: 458px;
     }
 }
 
@@ -1136,6 +1145,18 @@ p{
 
     .customer__container{
         width: 90%;
+    }
+
+    .app__book{
+        width: 500px;
+    }
+    
+    .app__wrap{
+        padding-top: 100px;
+    }
+    
+    .app__wrap > div:nth-child(2){
+        height: 266px;
     }
 }
 
