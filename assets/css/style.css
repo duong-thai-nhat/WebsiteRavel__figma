@@ -384,9 +384,8 @@ p{
 /* Offer */
     .offer__wrap{
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-wrap: nowrap;
         justify-content: center;
-        /* align-items: center;  */
     }
 
     .offer__item{
@@ -1013,6 +1012,10 @@ p{
 
     .destination__wrap{
         justify-content: center;
+    }
+
+    .offer__wrap{
+        flex-wrap: wrap-reverse;
     }
 
     .offer__item:nth-child(2){
