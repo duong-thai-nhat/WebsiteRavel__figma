@@ -1205,9 +1205,32 @@ p{
 }
 
 @media (max-width: 600px){
+    .container{
+        margin: 40px 0;
+    }
+
+    .heading__text{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
     .slider__content__text{
-        width: 74%;
-        margin-bottom: 20px
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .slider__content__text{
+        font-size: 24px;
+    }
+
+    .slider__content__button {
+        padding: 12px 14px;
+        font-size: 14px;
     }
 
     .pagination__line{
@@ -1217,11 +1240,118 @@ p{
     .pagination__number__page{
         margin-left: 40px;
     }
+
+    .service .container{
+        margin-top: 140px;
+    }
+
+    .destination__content{
+        width: unset;
+        align-items: center;
+    }
+
+    .destination__content__text{
+        text-align: center;
+    }
+
+    .offer__item:nth-child(2) .offer__item__text__content{
+        margin-left: 20px;
+    }
+    
+    .offer__item:first-child{
+        width: 100%;
+    }
+
+    .offer__item{
+        margin-right: unset;
+    }
+
+    .offer__item__wrap__img{
+        min-height: 600px;
+    }
+
+    .customer__wrap__content{
+        padding: 40px 20px;
+    }
+
+    .app__wrap{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .app__header__download{
+        padding: 0 20px;
+    }
+
+    .app__header__img{
+        width: 160px;
+    }
 }
 
-@media (max-width: 600px){
-    .container{
-        padding-left: 10px;
-        padding-right: 10px;
+@media (max-width: 500px){
+    .header__logo__img{
+        width: 120px;
+    }
+
+    .header__account__name{
+        display: none;
+    }
+
+    .offer__item__wrap__img{
+        min-height: 400px;
+    }
+
+    .choose-destination__content{
+        padding: 0 0 100px;
+    }
+
+    .app__wrap{
+        padding-bottom: 0;
+    }
+
+    .app__wrap > div:nth-child(2) .app__book{
+        top: 70px;
+    }
+    
+    .app__book{
+        width: 300px;
+    }
+
+    .footer__body__input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .slider__content{
+        left: 0;
+        text-align: center;
+    }
+
+    .slider__content__text{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .offer__item__wrap__img{
+        min-height: 300px;
+    }
+
+    .choose-destination__img__text{
+        width: 100%;
+    }
+
+    .choose-destination__img__info{
+        flex-wrap: wrap;
+    }
+
+    .app__header__download{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app__header__img + .app__header__img{
+        margin-left: 0;
+        margin-top: 20px;
     }
 }
